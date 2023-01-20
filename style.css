@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    background-color: #BE3144;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_items {
+    padding: 20px 0px;
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #F0F0F0;
+    padding: 20px;
+
+}
+
+.nav_link:hover{
+    background-color: #45567D;
+}
+
+.p1 {
+    background-image: linear-gradient(to right, #373A3C , #1D1D1F);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mimic {
+    color: #F0F0F0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    font-weight:500;
+}
+
+.h_dev {
+    color: #BE323F;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p2 {
+    background-color: #45567D;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.my_projects {
+    color: #F0F0F0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight:500;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work_cards {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth sixth";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 40px;
+}
+
+.card {
+    text-decoration: none;
+    height: 390px;
+}
+
+.card_1 {
+    grid-area: first;
+}
+
+.card_2 {
+    grid-area: second;
+}
+
+.card_3 {
+    grid-area: third;
+}
+
+.card_4 {
+    grid-area: fourth;
+}
+
+.card_5 {
+    grid-area: fifth;
+}
+
+.card_6 {
+    grid-area: sixth;
+}
+
+.tribute {
+    background-color: #303841;
+    color: #F0F0EA;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -5px;
+    font-size: larger;
+    border-radius: 2px;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    background-color: #303841;
+    text-decoration: none;
+    color: #F0F0EA;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+  }
