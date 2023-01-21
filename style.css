@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: auto;
+}
+
 .nav_bar {
     background-color: #BE3144;
     position: fixed; 
     top: 0; 
     width: 100%; 
+    padding-right: 18px;
 }
 
 .nav_list {
@@ -90,7 +95,7 @@ img {
     "first second third"
     "fourth fifth sixth";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: 458px 458px;
     gap: 40px;
 }
 
@@ -135,12 +140,105 @@ img {
     border-radius: 2px;
 }
 
+.code {
+    color: #303841;
+    transition: color 0.2s ease-out;
+}
+
+.card:hover .code {
+    color: #FF7B51;
+}
+
 .btn {
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     border-radius: 2px;
     background-color: #303841;
     text-decoration: none;
     color: #F0F0EA;
     font-family: 'Poppins', sans-serif;
     font-size: large;
-  }
+    transition: background 0.3s ease-out;
+    display: inline-block;
+    justify-content: center;
+    justify-self: center;
+}
+
+.project_t {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 130px;
+}
+
+.btn:hover {
+    background-color: #BE3144;
+}
+
+.btn > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.2s ease-out;
+}
+
+.btn:hover > i {
+    transform: scale(1.2);
+}
+
+.p3 {
+    background-color: #303841;
+    height: 85vh;
+    padding-top: 245px;
+}
+
+.offer {
+    color: #F0F0F0;
+    text-align: center;
+}
+
+.offer_h {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    padding-bottom: 4px;
+}
+
+.offer_coffee {
+    color: #F0f0f0;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    height: 15vh;
+    border-top: solid #BE3144 4px;
+    background-color: #303841;
+    color: #F0F0EA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.links {
+    text-decoration: none;
+    color: #F0F0EA;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.2s ease-out;
+}
+
+.contacts_links {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.links:hover {
+    transform: translateY(8px);
+}

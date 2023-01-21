@@ -24,20 +24,22 @@
   <body>
     <nav class="nav_bar">
       <ul class="nav_list">
-        <li class="nav_items"><a class="nav_link" href="">About</a></li>
-        <li class="nav_items"><a class="nav_link" href="">Work</a></li>
-        <li class="nav_items"><a class="nav_link" href="">Contact</a></li>
+        <li class="nav_items"><a class="nav_link" href="#about">About</a></li>
+        <li class="nav_items"><a class="nav_link" href="#work">Work</a></li>
+        <li class="nav_items">
+          <a class="nav_link" href="#contact">Contact</a>
+        </li>
       </ul>
     </nav>
 
-    <section class="p1">
+    <section id="about" class="p1">
       <div>
-        <h1 class="mimic">Hey I am Moeed</h1>
+        <h1 class="mimic">Hey I am Abdul Moeed</h1>
         <p class="h_dev"><em>a web developer</em></p>
       </div>
     </section>
 
-    <section class="p2">
+    <section id="work" class="p2">
       <h2 class="my_projects">These are some of my projects</h2>
       <div class="work_cards">
         <a class="card_1 card" href=""
@@ -45,7 +47,10 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
             alt="Tribute Page"
           />
-          <p class="tribute">Tribute Page</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> Tribute Page
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
 
         <a class="card_2 card" href=""
@@ -53,7 +58,10 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
             alt="Random Qoute Machine"
           />
-          <p class="tribute">Random Qoute Machine</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> Random Qoute Machine
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
 
         <a class="card_3 card" href=""
@@ -61,7 +69,10 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
             alt="JavaScript Calculator"
           />
-          <p class="tribute">JavaScript Calculator</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> JavaScript Calculator
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
 
         <a class="card_4 card" href=""
@@ -69,7 +80,10 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
             alt="Map Data Across the Globe"
           />
-          <p class="tribute">Map Data Across the Globe</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> Map Data Across the Globe
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
 
         <a class="card_5 card" href=""
@@ -77,7 +91,10 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
             alt="Wikipedia Viewer"
           />
-          <p class="tribute">Wikipedia Viewer</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> Wikipedia Viewer
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
 
         <a class="card_6 card" href=""
@@ -85,15 +102,52 @@
             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
             alt="Tic Tac Toe Game"
           />
-          <p class="tribute">Tic Tac Toe Game</p>
+          <p class="tribute">
+            <span class="code">&lt;</span> Tic Tac Toe Game
+            <span class="code">&#47;&gt;</span>
+          </p>
         </a>
       </div>
-      <a
-        href="https://codepen.io/FreeCodeCamp/"
-        class="btn btn_add"
-        target="_blank"
-        >Add Projects <i class="fas fa-chevron-right"></i
-      ></a>
+      <p class="project_t">
+        <a href="" class="btn" target="_blank"
+          >Add Projects<i class="fas fa-plus"></i
+        ></a>
+      </p>
     </section>
+
+    <section id="contact" class="p3">
+      <div class="offer">
+        <h2 class="offer_h">Let's work together...</h2>
+        <p class="offer_coffee">How do you like your coffee?</p>
+      </div>
+      <div>
+        <p class="contacts_links">
+          <a
+            href="https://www.linkedin.com/in/engr-abdul-moeed/"
+            class="linkedin links"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/engrabdulmoeed" class="github links"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a href="https://twitter.com" class="twitter links"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="mailto: getmoeed@gmail.com" class="mail links"
+            ><i class="fas fa-envelope"></i> Send a mail</a
+          >
+          <a href="tel:+923088979229" class="phone links"
+            ><i class="fas fa-phone"></i> Call me</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="foot_1">
+        **This is just a demo portfolio. The projects are not real.
+      </p>
+      <p class="foot_2">&copy; Created by Abdul Moeed</p>
+    </footer>
   </body>
 </html>
