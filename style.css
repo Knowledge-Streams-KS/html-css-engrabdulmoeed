@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 .nav_bar {
@@ -67,8 +67,8 @@ html {
 
 .p2 {
     background-color: #45567D;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
 }
 
 .my_projects {
@@ -96,7 +96,10 @@ img {
     "fourth fifth sixth";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 458px 458px;
-    gap: 40px;
+    /* gap: 40px; */
+    gap: 3%;
+    /* column-gap: 3.7037%;
+    row-gap: 3.7037%; */
 }
 
 .card {
@@ -150,17 +153,15 @@ img {
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 2px;
     background-color: #303841;
     text-decoration: none;
     color: #F0F0EA;
     font-family: 'Poppins', sans-serif;
-    font-size: large;
+    font-size: larger;
     transition: background 0.3s ease-out;
     display: inline-block;
-    justify-content: center;
-    justify-self: center;
 }
 
 .project_t {
@@ -177,6 +178,7 @@ img {
     margin-left: 10px;
     transform: translateX(0);
     transition: transform 0.2s ease-out;
+    z-index: -1;
 }
 
 .btn:hover > i {
@@ -226,7 +228,7 @@ img {
     color: #F0F0EA;
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
-    text-shadow: 2px 2px 1px #1f1f1f;
+    /* text-shadow: 2px 2px 1px #1f1f1f; */
     transition: transform 0.2s ease-out;
 }
 
